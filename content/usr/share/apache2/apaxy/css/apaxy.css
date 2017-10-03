@@ -151,7 +151,7 @@ td {
   }
 }
 
-tr.even-dir .indexcolsize, tr.odd-dir .indexcolsize {
+tr.even-dir .indexcolsize, tr.even-parentdir .indexcolsize, tr.odd-dir .indexcolsize, tr.odd-parentdir .indexcolsize {
   color: transparent;
 }
 
