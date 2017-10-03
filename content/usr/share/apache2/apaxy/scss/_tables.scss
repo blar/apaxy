@@ -1,0 +1,97 @@
+
+table {
+    color: #666;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: small;
+    line-height: 2rem;
+    margin: 2rem 0 2rem 0;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+tr {
+    &:hover td {
+        background: #eee;
+    }
+}
+
+th, td {
+    text-align: left;
+    padding: 0 0.5rem;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+
+    a {
+        display: block;
+    }
+}
+
+th {
+    font-size: small;
+}
+
+td {
+    border-top: 1px solid #ddd;
+}
+
+.indexcolicon {
+    display: none;
+    width: 16px;
+    text-align: center;
+
+    img {
+        width: 16px;
+        height: 16px;
+    }
+
+    @media(min-width: 480px) {
+        display: table-cell;
+    }
+}
+
+.indexcolname {
+    a {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.indexcollastmod {
+    width: 6.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    @media(min-width: 480px) {
+        width: 8em;
+    }
+}
+
+.indexcolsize {
+    text-align: right;
+    width: 3em;
+
+    @media(min-width: 480px) {
+        width: 5em;
+
+        /*
+        &:after {
+            content: 'Bytes';
+        }
+        */
+    }
+}
+
+tr {
+    &.even, &.odd {
+        &-dir {
+            .indexcolsize {
+                color: transparent;
+            }
+        }
+    }
+}

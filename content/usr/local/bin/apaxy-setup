@@ -1,0 +1,25 @@
+#!/usr/bin/env sh
+
+apk update
+apk add apache2
+mkdir /run/apache2
+
+rm -f /var/www/localhost/htdocs/index.html
+
+touch /var/www/localhost/htdocs/example.gif
+touch /var/www/localhost/htdocs/example.jpg
+touch /var/www/localhost/htdocs/example.txt
+touch /var/www/localhost/htdocs/example.md
+touch /var/www/localhost/htdocs/example
+touch /var/www/localhost/htdocs/example.mp4
+touch /var/www/localhost/htdocs/example.zip
+touch /var/www/localhost/htdocs/example.doc
+touch /var/www/localhost/htdocs/example.xls
+touch /var/www/localhost/htdocs/example.pdf
+touch /var/www/localhost/htdocs/example.tex
+touch /var/www/localhost/htdocs/example.c
+touch /var/www/localhost/htdocs/example.mp3
+
+mkdir /var/www/localhost/htdocs/foo
+mkdir /var/www/localhost/htdocs/bar
+cp /var/www/localhost/htdocs/example* /var/www/localhost/htdocs/bar

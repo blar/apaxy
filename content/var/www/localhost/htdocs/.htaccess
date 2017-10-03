@@ -1,0 +1,6 @@
+# ENABLE INDEXING
+Options Indexes
+
+<Files ".*">
+    Require all denied
+</Files>
