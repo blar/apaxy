@@ -11,9 +11,9 @@ Based on https://github.com/AdamWhitcroft/apaxy
 
 ## Docker
 
-docker run --rm -v 8080:80 foobox/apaxy
+docker run --rm -p 8080:80 foobox/apaxy
 
-[local apaxy example](http://localhost:8080/)
+After starting the docker container you can access the [local apaxy example](http://localhost:8080/)
 
 ## Troubleshooting
 
