@@ -54,6 +54,11 @@ a, img {
   outline: none;
 }
 
+address {
+  text-align: center;
+  margin: 2rem;
+}
+
 table {
   color: #666;
   width: 100%;
@@ -90,6 +95,10 @@ th {
 
 td {
   border-top: 1px solid #ddd;
+}
+
+.indexhead {
+  border-bottom: solid 1px #ddd;
 }
 
 .indexcolicon {
@@ -146,8 +155,25 @@ tr.even-dir .indexcolsize, tr.odd-dir .indexcolsize {
   color: transparent;
 }
 
-address {
-  text-align: center;
-  margin: 2rem;
+input[type="search"] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  border: solid 1px #ccc;
+  margin: 2rem 0 0 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  line-height: inherit;
+}
+
+input[type="search"] + #indexlist {
+  margin-top: 1rem;
+}
+
+.filter-miss {
+  display: none;
+  /* opacity: 0.2; */
 }
 /*# sourceMappingURL=apaxy.css.map */

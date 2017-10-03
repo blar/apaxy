@@ -51,10 +51,11 @@ a, img {
     border: none;
     outline: none
 }
-
-@import 'tables';
-
 address {
     text-align: center;
     margin: 2rem;
 }
+
+@import 'tables';
+@import 'filter';
+

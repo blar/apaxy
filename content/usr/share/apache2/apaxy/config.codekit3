@@ -762,6 +762,29 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/js\/filter.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/filter.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/scss\/_filter.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 4,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_filter.css",
+		"oF": 0,
+		"oS": 1,
+		"uL": 1
+		},
 	"\/scss\/_tables.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -2597,7 +2620,7 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.min.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
@@ -2609,7 +2632,7 @@
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathFilenamePattern": "*.min.json",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
